@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/braburesume.git/static/css/main.578f754a.css",
+    "main.js": "/braburesume.git/static/js/main.fb014130.js",
+    "static/js/453.7fcac2c8.chunk.js": "/braburesume.git/static/js/453.7fcac2c8.chunk.js",
+    "static/media/filezilla.png": "/braburesume.git/static/media/filezilla.4ccf3e9413303d840e88.png",
+    "static/media/python.png": "/braburesume.git/static/media/python.da574f714779b6ef8abd.png",
+    "static/media/az.png": "/braburesume.git/static/media/az.cc6a0d067d3c9ca4edac.png",
+    "static/media/jira.png": "/braburesume.git/static/media/jira.581b5866625e1b506f23.png",
+    "index.html": "/braburesume.git/index.html",
+    "main.578f754a.css.map": "/braburesume.git/static/css/main.578f754a.css.map",
+    "main.fb014130.js.map": "/braburesume.git/static/js/main.fb014130.js.map",
+    "453.7fcac2c8.chunk.js.map": "/braburesume.git/static/js/453.7fcac2c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.578f754a.css",
+    "static/js/main.fb014130.js"
+  ]
+}
