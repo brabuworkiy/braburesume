@@ -1,0 +1,233 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: lighter;
+  text-decoration: none; 
+
+
+}
+
+.contact-info{
+  line-height: 40px;
+}
+
+.pd{
+  line-height: 30px;
+}
+
+.skills{
+  line-height: 40px;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.CareerObjective {
+  text-indent: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.cr{
+  background: linear-gradient(to bottom right, #68757567, #353f3586);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
+
+
+/* Container styles */
+.App {
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #000000a7, #0d0d0c);
+ color: rgba(255, 255, 255, 0.73);
+  line-height: 27px;
+  
+}
+
+.job-title {
+  color: white;
+  margin-top: 15px;
+}
+
+img {
+  width: 20px;
+}
+
+/* Header styles */
+.header {
+  text-align: right;
+  background: linear-gradient(to bottom right, rgba(79, 182, 242, 0.66), rgba(214, 230, 131, 0.2));
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+/* Main content styles */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.left-column {
+  flex: 0 1 auto;
+  max-width: 290px;
+  background: linear-gradient(to bottom right, #68757567, #353f3586);
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.right-column {
+  flex: 2; 
+  background: linear-gradient(to bottom right, #68757567, #353f3586);
+  padding: 20px;
+  border-radius: 5px;
+
+
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.contact-info li img,
+.skills li img {
+  margin-right: 10px;
+  
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  background: linear-gradient(to bottom right, rgba(79, 182, 242, 0.2), rgba(214, 230, 131, 0.2));
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 9px;
+}
+
+.education{
+  margin-top: 5px;
+}
+
+/* Section styles */
+.CI,
+.ED,
+.EX,
+.SK,
+.DE {
+  background: linear-gradient(to bottom right, rgba(79, 182, 242, 0.66), rgba(214, 230, 131, 0.2));
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: -1;
+  font-size: 1.2rem;
+  font-weight: lighter;
+ 
+
+}
+
+.mail,.call{
+  color: rgba(163, 255, 106, 0.718);
+}
+
+.EX {
+  margin-top: 20px;
+}
+
+#ex {
+  font-size: small;
+}
+
+.experience li {
+  list-style-type: square;
+  margin-left: 50px;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 800px; /* Set maximum width for larger screens */
+  margin: 0 auto; /* Center the table */
+  border-radius: 5px; /* Adding border radius */
+}
+
+th, td {
+  border: 1px solid #d87474;
+  text-align: left;
+  padding: 8px;
+  
+}
+#t1,#t2{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+#tc1{
+  background: linear-gradient(to bottom right, rgba(79, 182, 242, 0.66), rgba(214, 230, 131, 0.2));
+}
+
+
+/* Set width for the first column */
+th:first-child,
+td:first-child {
+  width: 20%; /* Adjust the width as needed */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  th, td {
+    width: 60%; /* Adjust the width as needed for smaller screens */
+  }
+  th, td::before {
+    content: attr(data-label);
+    font-weight: bold;
+  }
+  th:first-child,
+  td:first-child {
+    width: auto; /* Reset the width for the first column */
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .left-column,
+  .right-column {
+    flex: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .left-column,
+  .right-column {
+    margin-bottom: 20px;
+  }
+  .footer{
+    margin-top: -10px;
+  }
+  .App{
+    width: 100%;
+  }
+  #t1,#t2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+}
